@@ -43,6 +43,7 @@ html {
     font-family: Farbverlauf_Gilda;
     src: url("../fonts/Gilda_Display/GildaDisplay-Regular.ttf");
 }
+
 /* 
 font-family: Logo, sans-serif;
 font-family: Farbverlauf, sans-serif;
@@ -52,12 +53,12 @@ font-family: H3, sans-serif;
 font-family: Maven_Logo, sans-serif;
 font-family: Farbverlauf_Gilda, sans-serif;
 */
-header{
+header {
     background-color: rgb(61, 56, 56);
     height: 100vh;
 }
 
-header p:first-child{
+header p:first-child {
     font-family: Maven_Logo, sans-serif;
     font-size: 1.0rem;
     width: 3vw;
@@ -73,54 +74,54 @@ header section:first-of-type {
     text-align: center;
     color: white;
     width: 11rem;
-    
+
 }
 
-header section:first-of-type:hover{
+header section:first-of-type:hover {
     background: rgb(238, 174, 202);
     background: linear-gradient(290deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
 
-header section h1{
+header section h1 {
     font-family: Farbverlauf_Gilda, sans-serif;
     font-size: 3rem;
 }
 
-header section p{
+header section p {
     font-size: 0.8rem;
 }
 
-header nav{
+header nav {
     margin-top: -7rem;
     text-align: right;
     margin-right: 1rem;
 }
 
-header nav ul li{
+header nav ul li {
     list-style: none;
     line-height: 1.7rem;
 }
 
 
-header nav ul li a{
+header nav ul li a {
     color: white;
     font-family: Nav, sans-serif;
     text-decoration: none;
 }
 
-header nav ul li:nth-of-type(1){
-    text-transform:uppercase;
+header nav ul li:nth-of-type(1) {
+    text-transform: uppercase;
     letter-spacing: 0.1rem;
 }
 
 article {
     background-image: url("https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg");
     height: 100vh;
-    background-repeat:no-repeat;
-    background-position:  center;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-article h2{ 
+article h2 {
     font-size: 4rem;
     font-family: Farbverlauf_Gilda, sans-serif;
     padding-top: 50vh;
@@ -128,34 +129,35 @@ article h2{
     text-align: left;
 }
 
-article p{
+article p {
     text-align: left;
     padding-left: 5vw;
     margin-top: 0.5rem;
     width: 60vw;
-    line-height: 1.7rem ;
-}
-
-section h3{
-    background-color: blue;
-    font-family: Farbverlauf_Gilda, sans-serif;
-font-size: 1.5rem;
+    line-height: 1.7rem;
 }
 
 
 
-.Bild{
+
+
+.Bild {
     background-color: green;
 }
 
-.bild1{
+.bild1 {
     background-color: red;
     background-image: url("https://assets.website-files.com/5c898b1d37266625ec969a97/5d1a683945dd8900108648db_capa_pmu-grad.jpg");
-    background-position: center;
-    
-    background-size: 50vw ;
-    height: 100vh;
+    background-position: top;
+    background-size: 50vw;
     background-repeat: no-repeat;
-    border-radius: 10px;
-    
+    border-radius: 10px;}
+
+section h3 {
+    background-color: blue;
+    font-family: Farbverlauf_Gilda, sans-serif;
+    font-size: 2rem;
+    padding-left: 15rem;
 }
+
+
