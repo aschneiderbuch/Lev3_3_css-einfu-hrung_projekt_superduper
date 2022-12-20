@@ -49,29 +49,33 @@ header{
 
 header p:first-child{
     font-family: Logo, sans-serif;
-    background-color: blue;
     font-size: 1.0rem;
     width: 3vw;
     color: white;
 }
 
-section:first-of-type {
+header section:first-of-type {
 
     background: rgb(238, 174, 202);
     background: linear-gradient(145deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-    margin: auto;
+    margin: 33vh auto;
     padding: 0.1rem;
     text-align: center;
     color: white;
+    width: 33vw;
+    
 }
 
-section:first-of-type:hover{
+header section:first-of-type:hover{
     background: rgb(238, 174, 202);
     background: linear-gradient(290deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
 
-h1{
+header section h1{
     font-family: Farbverlauf, sans-serif;
     font-size: 3rem;
+}
 
+header section p{
+    font-size: 0.8rem;
 }
