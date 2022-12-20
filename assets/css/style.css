@@ -34,13 +34,23 @@ html {
     src: url("../fonts/H3_Cormorant_Garamond/CormorantGaramond-Bold.ttf");
 }
 
+@font-face {
+    font-family: Maven;
+    src: url("../fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Farbverlauf_Gilda;
+    src: url("../fonts/Gilda_Display/GildaDisplay-Regular.ttf");
+}
 /* 
 font-family: Logo, sans-serif;
 font-family: Farbverlauf, sans-serif;
 font-family: Nav, sans-serif;
 font-family: H2, sans-serif;
 font-family: H3, sans-serif;
-
+font-family: Maven, sans-serif;
+font-family: Farbverlauf_Gilda, sans-serif;
 */
 header{
     background-color: rgb(61, 56, 56);
@@ -72,10 +82,34 @@ header section:first-of-type:hover{
 }
 
 header section h1{
-    font-family: Farbverlauf, sans-serif;
+    font-family: Farbverlauf_Gilda, sans-serif;
     font-size: 3rem;
 }
 
 header section p{
     font-size: 0.8rem;
+}
+
+header nav{
+    text-align: right;
+    margin-right: 1rem;
+}
+
+header nav ul li{
+    list-style: none;
+    line-height: 1.7rem;
+
+}
+
+header nav ul li a{
+    color: white;
+    font-family: Nav, sans-serif;
+    text-decoration: none;
+}
+
+header nav ul li:nth-of-type(1){
+    text-transform:uppercase;
+    letter-spacing: 0.1rem;
+
+
 }
