@@ -149,9 +149,7 @@ header nav ul li:nth-of-type(1) {
 }
 
 section1 article{
-    background-color: green;
     margin: 0 20rem;
-    2background-color: red;
     background-image: url("https://assets.website-files.com/5c898b1d37266625ec969a97/5d1a683945dd8900108648db_capa_pmu-grad.jpg");
     background-position: top;
     background-size: cover;
@@ -164,8 +162,14 @@ section1 article{
 
 
 .Bild h3 {
-    background-color: blue;
     font-family: Farbverlauf_Gilda, sans-serif;
     font-size: 2rem;
-    padding-left: 15rem;
+    margin: 0.5rem 20rem;
+    text-align: left;
+}
+
+.Bild p{
+    margin: 0.5rem 20rem;
+    text-align: left;
+
 }
