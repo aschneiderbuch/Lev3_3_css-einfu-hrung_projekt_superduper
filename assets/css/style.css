@@ -35,7 +35,7 @@ html {
 }
 
 @font-face {
-    font-family: Maven;
+    font-family: Maven_Logo;
     src: url("../fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf");
 }
 
@@ -49,7 +49,7 @@ font-family: Farbverlauf, sans-serif;
 font-family: Nav, sans-serif;
 font-family: H2, sans-serif;
 font-family: H3, sans-serif;
-font-family: Maven, sans-serif;
+font-family: Maven_Logo, sans-serif;
 font-family: Farbverlauf_Gilda, sans-serif;
 */
 header{
@@ -58,7 +58,7 @@ header{
 }
 
 header p:first-child{
-    font-family: Logo, sans-serif;
+    font-family: Maven_Logo, sans-serif;
     font-size: 1.0rem;
     width: 3vw;
     color: white;
@@ -72,7 +72,7 @@ header section:first-of-type {
     padding: 0.1rem;
     text-align: center;
     color: white;
-    width: 33vw;
+    width: 11rem;
     
 }
 
@@ -91,6 +91,7 @@ header section p{
 }
 
 header nav{
+    margin-top: -7rem;
     text-align: right;
     margin-right: 1rem;
 }
@@ -98,8 +99,8 @@ header nav{
 header nav ul li{
     list-style: none;
     line-height: 1.7rem;
-
 }
+
 
 header nav ul li a{
     color: white;
@@ -110,6 +111,20 @@ header nav ul li a{
 header nav ul li:nth-of-type(1){
     text-transform:uppercase;
     letter-spacing: 0.1rem;
+}
 
+article {
+    background-image: url("https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg");
+    background-color: blue;
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-position:  center;
+}
 
+article h2{ 
+    font-size: 4rem;
+    font-family: Farbverlauf_Gilda, sans-serif;
+    padding-top: 50vh;
+    padding-left: 20vw;
+    text-align: left;
 }
