@@ -9,7 +9,44 @@ html {
     font-size: 16px;
 }
 
-section:first-of-type{
-    background: rgb(238,174,202);
-background: linear-gradient(145deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+@font-face {
+    font-family: Logo;
+    src: url("../fonts/Logo_Inter_Tight/InterTight-Italic-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Farbverlauf;
+    src: url("../fonts/Farbverlauf_EB_Garamond/");
+}
+
+@font-face {
+    font-family: Nav;
+    src: url("../fonts/Nav_Comfortaa/");
+}
+
+@font-face {
+    font-family: H2;
+    src: url("../fonts/H2_Noto_Serif/NotoSerif-Bold.ttf");
+}
+
+@font-face {
+    font-family: H3;
+    src: url("../fonts/H3_Cormorant_Garamond/CormorantGaramond-Bold.ttf");
+}
+
+/* 
+font-family: Logo, sans-serif;
+font-family: Farbverlauf, sans-serif;
+font-family: Nav, sans-serif;
+font-family: H2, sans-serif;
+font-family: H3, sans-serif;
+
+
+
+
+
+*/
+section:first-of-type {
+    background: rgb(238, 174, 202);
+    background: linear-gradient(145deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
