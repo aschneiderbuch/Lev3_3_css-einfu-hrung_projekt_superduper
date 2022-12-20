@@ -115,7 +115,6 @@ header nav ul li:nth-of-type(1){
 
 article {
     background-image: url("https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg");
-    background-color: blue;
     height: 100vh;
     background-repeat:no-repeat;
     background-position:  center;
@@ -125,6 +124,38 @@ article h2{
     font-size: 4rem;
     font-family: Farbverlauf_Gilda, sans-serif;
     padding-top: 50vh;
-    padding-left: 20vw;
+    padding-left: 5vw;
     text-align: left;
+}
+
+article p{
+    text-align: left;
+    padding-left: 5vw;
+    margin-top: 0.5rem;
+    width: 60vw;
+    line-height: 1.7rem ;
+}
+
+section h3{
+    background-color: blue;
+    font-family: Farbverlauf_Gilda, sans-serif;
+font-size: 1.5rem;
+}
+
+
+
+.Bild{
+    background-color: green;
+}
+
+.bild1{
+    background-color: red;
+    background-image: url("https://assets.website-files.com/5c898b1d37266625ec969a97/5d1a683945dd8900108648db_capa_pmu-grad.jpg");
+    background-position: center;
+    
+    background-size: 50vw ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
 }
