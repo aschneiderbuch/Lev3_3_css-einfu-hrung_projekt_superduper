@@ -41,13 +41,37 @@ font-family: Nav, sans-serif;
 font-family: H2, sans-serif;
 font-family: H3, sans-serif;
 
-
-
-
-
 */
-section:first-of-type {
-    background: rgb(238, 174, 202);
-    background: linear-gradient(145deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+header{
+    background-color: rgb(61, 56, 56);
+    height: 100vh;
 }
 
+header p:first-child{
+    font-family: Logo, sans-serif;
+    background-color: blue;
+    font-size: 1.0rem;
+    width: 3vw;
+    color: white;
+}
+
+section:first-of-type {
+
+    background: rgb(238, 174, 202);
+    background: linear-gradient(145deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    margin: auto;
+    padding: 0.1rem;
+    text-align: center;
+    color: white;
+}
+
+section:first-of-type:hover{
+    background: rgb(238, 174, 202);
+    background: linear-gradient(290deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+h1{
+    font-family: Farbverlauf, sans-serif;
+    font-size: 3rem;
+
+}
